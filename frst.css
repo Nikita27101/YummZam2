@@ -1,0 +1,55 @@
+
+h1 
+{
+ font-style:italic;
+ color:black;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ text-shadow:darksalmon 3px 3px 3px;
+
+}
+.back:before {
+	background-image: url("bckgnd1.jpg");
+	width: 100%;
+	height: 63%;
+	background-size: cover;
+	content: "";
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	display: block;
+	filter: blur(1.5px);
+}
+hr
+{
+	margin-top: 0px;
+    border-top-width: 0px;
+    border-style:dotted none none;
+    width: 8%;
+    border-width: 10px;
+    border-color:maroon;
+}
+td{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bolder;
+}
+.btn 
+{
+    cursor: pointer;
+    position: relative;
+    padding: 1rem .7rem;
+    border-radius: 1rem;
+    line-height: .1rem;
+    font-size: 20px;
+    font-weight: 100;
+    border: 1.5px solid rgb(167, 162, 162);
+    background-image: linear-gradient(60deg, darksalmon 10%, linen 100%); 
+    box-shadow: 0 .9rem 1.25rem 0 tan;
+}
+.btn:hover
+{
+    background-image: linear-gradient(60deg, linen 0%, maroon 150%); 
+    box-shadow: 0 1rem 1.25rem 0 tan;
+}

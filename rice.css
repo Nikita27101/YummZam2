@@ -1,0 +1,34 @@
+h2
+{
+    padding-bottom: 7px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h3
+{
+     padding-bottom: 0px;
+     padding-top: 0px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+
+}
+.button 
+{
+    cursor: pointer;
+    position: relative;
+    padding: .8rem .8rem;
+    border-radius: 1rem;
+    line-height: .1rem;
+    font-size: 17px;
+    font-weight: 50;
+    border: 1px solid black;
+    background-image: linear-gradient(60deg, cadetblue 30%, lavender 100%); 
+    box-shadow: 0 .5rem .7rem 0 rgb(120, 190, 236);
+}
+.button:hover
+{
+    background-image: linear-gradient(190deg, lavender 0%, rgb(88, 77, 153) 70%); 
+    box-shadow: 0 .5rem .6rem 0 rgb(120, 190, 236);
+    background-color: ;
+}

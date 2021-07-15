@@ -1,0 +1,33 @@
+h2
+{
+    padding-bottom: 7px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h3
+{
+     padding-bottom: 0px;
+     padding-top: 0px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+
+}
+.button 
+{
+    cursor: pointer;
+    position: relative;
+    padding: .8rem .8rem;
+    border-radius: 1rem;
+    line-height: .1rem;
+    font-size: 17px;
+    font-weight: 50;
+    border: 1px solid black;
+    background-image: linear-gradient(60deg, brown 0%, cornsilk 100%); 
+    box-shadow: 0 .9rem 1.25rem 0 tan;
+}
+.button:hover
+{
+    background-image: linear-gradient(190deg, cornsilk 0%, brown 50%); 
+    box-shadow: 0 1rem 1.25rem 0 tan;
+}
